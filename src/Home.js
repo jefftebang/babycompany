@@ -412,6 +412,21 @@ const Section3 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 480px) and (min-width: 415px) {
+    margin-top: 800px;
+  }
+  @media (max-width: 414px) and (min-width: 376px) {
+    margin-top: 160px;
+  }
+  @media (max-width: 375px) and (min-width: 361px) {
+    margin-top: 175px;
+  }
+  @media (max-width: 360px) and (min-width: 321px) {
+    margin-top: 170px;
+  }
+  @media (max-width: 320px) {
+    margin-top: 180px;
+  }
 `;
 
 const BoxWrapper2 = styled.div`
@@ -421,6 +436,27 @@ const BoxWrapper2 = styled.div`
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  @media (max-width: 480px) and (min-width: 415px) {
+    width: 400px;
+    height: 400px;
+    margin-top: 300px;
+  }
+  @media (max-width: 414px) and (min-width: 376px) {
+    width: 400px;
+    height: 800px;
+  }
+  @media (max-width: 375px) and (min-width: 361px) {
+    width: 400px;
+    height: 800px;
+  }
+  @media (max-width: 360px) and (min-width: 321px) {
+    width: 400px;
+    height: 800px;
+  }
+  @media (max-width: 320px) {
+    width: 400px;
+    height: 800px;
+  }
 `;
 
 const InnerWrapper2 = styled.div`
@@ -428,6 +464,24 @@ const InnerWrapper2 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 1;
+  @media (max-width: 480px) and (min-width: 415px) {
+    margin-left: 40px;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+  }
+  @media (max-width: 414px) and (min-width: 376px) {
+    margin-left: 10px;
+  }
+  @media (max-width: 375px) and (min-width: 361px) {
+    margin-left: 10px;
+  }
+  @media (max-width: 360px) and (min-width: 321px) {
+    margin-left: 10px;
+  }
+  @media (max-width: 320px) {
+    margin-left: 10px;
+  }
 `;
 
 const BoxTitle2 = styled.div`
@@ -437,6 +491,25 @@ const BoxTitle2 = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 5px;
+`;
+
+const Paragraph2Holder = styled.div`
+  width: 480px;
+  @media (max-width: 480px) and (min-width: 415px) {
+    width: 350px;
+  }
+  @media (max-width: 414px) and (min-width: 376px) {
+    width: 400px;
+  }
+  @media (max-width: 375px) and (min-width: 361px) {
+    width: 340px;
+  }
+  @media (max-width: 360px) and (min-width: 321px) {
+    width: 330px;
+  }
+  @media (max-width: 320px) {
+    width: 300px;
+  }
 `;
 
 const BoxParagraph2 = styled.div`
@@ -453,7 +526,24 @@ const Baby3 = styled.img`
   position: absolute;
   right: 120px;
   top: 1271px;
-  z-index: 2;
+  z-index: 1;
+  @media (max-width: 480px) and (min-width: 415px) {
+    top: 2339px;
+    width: 400px;
+    right: 40px;
+  }
+  @media (max-width: 414px) and (min-width: 376px) {
+    top: 1271px;
+  }
+  @media (max-width: 375px) and (min-width: 361px) {
+    top: 1271px;
+  }
+  @media (max-width: 360px) and (min-width: 321px) {
+    top: 1271px;
+  }
+  @media (max-width: 320px) {
+    top: 1271px;
+  }
 `;
 
 const SkyObjects = styled.div`
@@ -463,11 +553,42 @@ const SkyObjects = styled.div`
   justify-content: flex-end;
   position: absolute;
   right: 170px;
+  @media (max-width: 480px) and (min-width: 415px) {
+    right: 45px;
+  }
+  @media (max-width: 414px) and (min-width: 376px) {
+    right: 170px;
+  }
+  @media (max-width: 375px) and (min-width: 361px) {
+    right: 170px;
+  }
+  @media (max-width: 360px) and (min-width: 321px) {
+    right: 170px;
+  }
+  @media (max-width: 320px) {
+    right: 170px;
+  }
 `;
 
 const Stars2 = styled.img`
   width: 639px;
   height: 232px;
+  @media (max-width: 480px) and (min-width: 415px) {
+    width: 390px;
+    height: 150px;
+  }
+  @media (max-width: 414px) and (min-width: 376px) {
+    width: 400px;
+  }
+  @media (max-width: 375px) and (min-width: 361px) {
+    width: 340px;
+  }
+  @media (max-width: 360px) and (min-width: 321px) {
+    width: 330px;
+  }
+  @media (max-width: 320px) {
+    width: 300px;
+  }
 `;
 
 export default function Home() {
@@ -551,10 +672,12 @@ export default function Home() {
             <BoxTitle2>
               Lorem Ipsum Dolor <br /> Sit Amet Consectetur
             </BoxTitle2>
-            <BoxParagraph2>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />{" "}
-              sed do eiusmod tempor incididunt ut labore et dolore.
-            </BoxParagraph2>
+            <Paragraph2Holder>
+              <BoxParagraph2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </BoxParagraph2>
+            </Paragraph2Holder>
             <LMHolder>
               <LM style={{ backgroundColor: "#e1187f" }}>Inquire Now</LM>
               <LMButton style={{ backgroundColor: "#ba156a" }}>
