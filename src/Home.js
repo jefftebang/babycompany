@@ -442,20 +442,28 @@ const BoxWrapper2 = styled.div`
     margin-top: 300px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
-    width: 400px;
-    height: 800px;
+    width: 100vw;
+    height: 400px;
+    margin-top: 1699px;
+    border-radius: 0;
   }
   @media (max-width: 375px) and (min-width: 361px) {
-    width: 400px;
-    height: 800px;
+    width: 100vw;
+    height: 400px;
+    margin-top: 1663px;
+    border-radius: 0;
   }
   @media (max-width: 360px) and (min-width: 321px) {
-    width: 400px;
-    height: 800px;
+    width: 100vw;
+    height: 430px;
+    margin-top: 1699px;
+    border-radius: 0;
   }
   @media (max-width: 320px) {
-    width: 400px;
-    height: 800px;
+    width: 100vw;
+    height: 400px;
+    margin-top: 1699px;
+    border-radius: 0;
   }
 `;
 
@@ -471,16 +479,24 @@ const InnerWrapper2 = styled.div`
     padding-bottom: 50px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
-    margin-left: 10px;
+    margin-left: 40px;
+    justify-content: flex-end;
+    padding-bottom: 50px;
   }
   @media (max-width: 375px) and (min-width: 361px) {
-    margin-left: 10px;
+    margin-left: 40px;
+    justify-content: flex-end;
+    padding-bottom: 50px;
   }
   @media (max-width: 360px) and (min-width: 321px) {
-    margin-left: 10px;
+    margin-left: 40px;
+    justify-content: flex-end;
+    padding-bottom: 50px;
   }
   @media (max-width: 320px) {
-    margin-left: 10px;
+    margin-left: 40px;
+    justify-content: flex-end;
+    padding-bottom: 50px;
   }
 `;
 
@@ -499,16 +515,16 @@ const Paragraph2Holder = styled.div`
     width: 350px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
-    width: 400px;
+    width: 320px;
   }
   @media (max-width: 375px) and (min-width: 361px) {
-    width: 340px;
+    width: 320px;
   }
   @media (max-width: 360px) and (min-width: 321px) {
-    width: 330px;
+    width: 280px;
   }
   @media (max-width: 320px) {
-    width: 300px;
+    width: 250px;
   }
 `;
 
@@ -533,16 +549,24 @@ const Baby3 = styled.img`
     right: 40px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
-    top: 1271px;
+    top: 2230px;
+    width: 400px;
+    right: 7px;
   }
   @media (max-width: 375px) and (min-width: 361px) {
-    top: 1271px;
+    top: 2175px;
+    width: 340px;
+    right: 17px;
   }
   @media (max-width: 360px) and (min-width: 321px) {
-    top: 1271px;
+    top: 2130px;
+    width: 340px;
+    right: 10px;
   }
   @media (max-width: 320px) {
-    top: 1271px;
+    top: 2085px;
+    width: 300px;
+    right: 11px;
   }
 `;
 
@@ -557,16 +581,16 @@ const SkyObjects = styled.div`
     right: 45px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
-    right: 170px;
+    right: 20px;
   }
   @media (max-width: 375px) and (min-width: 361px) {
-    right: 170px;
+    right: 18px;
   }
   @media (max-width: 360px) and (min-width: 321px) {
-    right: 170px;
+    right: 10px;
   }
   @media (max-width: 320px) {
-    right: 170px;
+    right: 9px;
   }
 `;
 
@@ -578,16 +602,20 @@ const Stars2 = styled.img`
     height: 150px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
-    width: 400px;
+    width: 373px;
+    height: 140px;
   }
   @media (max-width: 375px) and (min-width: 361px) {
     width: 340px;
+    height: 130px;
   }
   @media (max-width: 360px) and (min-width: 321px) {
-    width: 330px;
+    width: 340px;
+    height: 130px;
   }
   @media (max-width: 320px) {
     width: 300px;
+    height: 100px;
   }
 `;
 
