@@ -22,6 +22,9 @@ const StarsHolder = styled.div`
 const Stars = styled.img`
   width: 90%;
   height: 350px;
+  @media (max-width: 1920px) and (min-width: 1601px) {
+    height: 550px;
+  }
   @media (max-width: 480px) {
     width: 100%;
     height: auto;
@@ -37,6 +40,11 @@ const Baby1 = styled.img`
   margin-top: -230px;
   width: 412px;
   height: 478px;
+  @media (max-width: 1920px) and (min-width: 1601px) {
+    margin-top: -445px;
+    width: 600px;
+    height: 678px;
+  }
   @media (max-width: 480px) and (min-width: 415px) {
     margin-top: -120px;
     width: 320px;
@@ -73,6 +81,11 @@ const Baby2 = styled.img`
   margin-top: -370px;
   width: 464px;
   height: 369px;
+  @media (max-width: 1920px) and (min-width: 1601px) {
+    margin-top: -550px;
+    width: 664px;
+    height: 549px;
+  }
   @media (max-width: 480px) and (min-width: 415px) {
     margin-top: 320px;
     width: 340px;
@@ -543,6 +556,10 @@ const Baby3 = styled.img`
   right: 120px;
   top: 1271px;
   z-index: 1;
+  @media (max-width: 1920px) and (min-width: 1601px) {
+    top: 1485px;
+    right: 370px;
+  }
   @media (max-width: 480px) and (min-width: 415px) {
     top: 2339px;
     width: 400px;
@@ -577,6 +594,9 @@ const SkyObjects = styled.div`
   justify-content: flex-end;
   position: absolute;
   right: 170px;
+  @media (max-width: 1920px) and (min-width: 1601px) {
+    right: 415px;
+  }
   @media (max-width: 480px) and (min-width: 415px) {
     right: 45px;
   }
