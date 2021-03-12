@@ -45,7 +45,12 @@ const Baby1 = styled.img`
     width: 600px;
     height: 678px;
   }
-  @media (max-width: 480px) and (min-width: 415px) {
+  @media (max-width: 480px) and (min-width: 425px) {
+    margin-top: -120px;
+    width: 320px;
+    height: auto;
+  }
+  @media (max-width: 424px) and (min-width: 415px) {
     margin-top: -120px;
     width: 320px;
     height: auto;
@@ -122,8 +127,11 @@ const H1Holder = styled.div`
   justify-content: center;
   position: absolute;
   top: 25px;
-  @media (max-width: 480px) and (min-width: 415px) {
+  @media (max-width: 480px) and (min-width: 425px) {
     margin-top: 150px;
+  }
+  @media (max-width: 424px) and (min-width: 415px) {
+    margin-top: 170px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
     margin-top: 160px;
@@ -231,9 +239,13 @@ const Title1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 480px) and (min-width: 415px) {
+  @media (max-width: 480px) and (min-width: 425px) {
     margin-top: -20px;
     font-size: 2rem;
+  }
+  @media (max-width: 424px) and (min-width: 415px) {
+    margin-top: 100px;
+    font-size: 1.9rem;
   }
   @media (max-width: 414px) and (min-width: 376px) {
     margin-top: 10px;
@@ -449,10 +461,15 @@ const BoxWrapper2 = styled.div`
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  @media (max-width: 480px) and (min-width: 415px) {
+  @media (max-width: 480px) and (min-width: 425px) {
     width: 400px;
     height: 400px;
     margin-top: 300px;
+  }
+  @media (max-width: 424px) and (min-width: 415px) {
+    width: 400px;
+    height: 400px;
+    margin-top: 390px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
     width: 100vw;
@@ -560,10 +577,15 @@ const Baby3 = styled.img`
     top: 1485px;
     right: 370px;
   }
-  @media (max-width: 480px) and (min-width: 415px) {
+  @media (max-width: 480px) and (min-width: 425px) {
     top: 2339px;
     width: 400px;
     right: 40px;
+  }
+  @media (max-width: 424px) and (min-width: 415px) {
+    top: 2309px;
+    width: 400px;
+    right: 10px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
     top: 2230px;
@@ -597,8 +619,11 @@ const SkyObjects = styled.div`
   @media (max-width: 1920px) and (min-width: 1601px) {
     right: 415px;
   }
-  @media (max-width: 480px) and (min-width: 415px) {
+  @media (max-width: 480px) and (min-width: 425px) {
     right: 45px;
+  }
+  @media (max-width: 424px) and (min-width: 415px) {
+    right: 16px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
     right: 20px;
@@ -617,9 +642,13 @@ const SkyObjects = styled.div`
 const Stars2 = styled.img`
   width: 639px;
   height: 232px;
-  @media (max-width: 480px) and (min-width: 415px) {
+  @media (max-width: 480px) and (min-width: 425px) {
     width: 390px;
     height: 150px;
+  }
+  @media (max-width: 424px) and (min-width: 415px) {
+    width: 390px;
+    height: 135px;
   }
   @media (max-width: 414px) and (min-width: 376px) {
     width: 373px;
